@@ -68,7 +68,18 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/test4")
     public String test4() throws JsonProcessingException {
-        List<Comment> list=commentDao.getCommentByArticle(1);
+        List<Comment> list=commentDao.getCommentUserPost(1);
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonStr = "";
+        jsonStr =  mapper.writeValueAsString(list);
+        return jsonStr;
+    }
+
+    @CrossOrigin
+    @ResponseBody
+    @RequestMapping("/test5")
+    public String test5() throws JsonProcessingException {
+        List<Comment> list=commentDao.getCommentUserGet(1);
         ObjectMapper mapper = new ObjectMapper();
         String jsonStr = "";
         jsonStr =  mapper.writeValueAsString(list);

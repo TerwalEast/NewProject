@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08480115-ac2b-495e-adbc-e4d03fef4061" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;demo/src/main/java/com/example/demo/dao/ArticleDao.java&#10;#&#9;demo/src/main/java/com/example/demo/dao/CommentDao.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Article.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleRestrict.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleSimple.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Comment.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Customer.java&#10;#&#9;front/src/router/index.js" />
+    <list default="true" id="08480115-ac2b-495e-adbc-e4d03fef4061" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;demo/src/main/java/com/example/demo/dao/ArticleDao.java&#10;#&#9;demo/src/main/java/com/example/demo/dao/CommentDao.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Article.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleRestrict.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleSimple.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Comment.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Customer.java&#10;#&#9;front/src/router/index.js">
+      <change afterPath="$PROJECT_DIR$/../前端整合/.idea/前端整合.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端整合/src/components/CManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端整合/src/components/CManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385af9e0-7b76-4900-8e74-33de5fedc4aa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_0_rc1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/MyResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/MyResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/OtherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/OtherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/CommentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/CommentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/LabelDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/LabelDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/OtherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/OtherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/ArticleSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/ArticleSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Browse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Browse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/CustomerSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/CustomerSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Label.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Label.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/ArticleLimitVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/ArticleLimitVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/CommentVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/CommentVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/MyResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/MyResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Vo/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/OtherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/OtherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +52,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="demo" />
@@ -40,6 +94,13 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -51,15 +112,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../前端整合" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,12 +149,14 @@
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -111,6 +176,7 @@
       <workItem from="1627364597398" duration="735000" />
       <workItem from="1627368991201" duration="11755000" />
       <workItem from="1627436223009" duration="562000" />
+      <workItem from="1627455529974" duration="6870000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1627278908587</created>
@@ -130,10 +196,97 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;demo/src/main/java/com/example/demo/dao/ArticleDao.java&#10;#&#9;demo/src/main/java/com/example/demo/dao/CommentDao.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Article.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleRestrict.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleSimple.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Comment.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Customer.java&#10;#&#9;front/src/router/index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;demo/src/main/java/com/example/demo/dao/ArticleDao.java&#10;#&#9;demo/src/main/java/com/example/demo/dao/CommentDao.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Article.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleRestrict.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleSimple.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Comment.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Customer.java&#10;#&#9;front/src/router/index.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" width="1159" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627455776862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" width="1159" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1627455776862" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1627462413472">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627462413472" />
+    <state x="442" y="30" key="FileChooserDialogImpl" timestamp="1627455946563">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="442" y="30" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627455946563" />
+    <state width="1237" height="250" key="GridCell.Tab.0.bottom" timestamp="1627462413666">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627462413666" />
+    <state width="1237" height="250" key="GridCell.Tab.0.center" timestamp="1627462413665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627462413665" />
+    <state width="1237" height="250" key="GridCell.Tab.0.left" timestamp="1627462413664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627462413664" />
+    <state width="1237" height="250" key="GridCell.Tab.0.right" timestamp="1627462413665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627462413665" />
+    <state width="1237" height="250" key="GridCell.Tab.1.bottom" timestamp="1627462413668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627462413668" />
+    <state width="1237" height="250" key="GridCell.Tab.1.center" timestamp="1627462413667">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627462413667" />
+    <state width="1237" height="250" key="GridCell.Tab.1.left" timestamp="1627462413667">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627462413667" />
+    <state width="1237" height="250" key="GridCell.Tab.1.right" timestamp="1627462413667">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627462413667" />
+    <state width="1237" height="250" key="GridCell.Tab.2.bottom" timestamp="1627462413669">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627462413669" />
+    <state width="1237" height="250" key="GridCell.Tab.2.center" timestamp="1627462413668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1627462413668" />
+    <state width="1237" height="250" key="GridCell.Tab.2.left" timestamp="1627462413668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1627462413668" />
+    <state width="1237" height="250" key="GridCell.Tab.2.right" timestamp="1627462413669">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="250" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1627462413669" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1627461225875">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1627461225875" />
+    <state x="308" y="38" key="NewModule_or_Project.wizard" timestamp="1627455670098">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="308" y="38" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1627455670098" />
+    <state x="176" y="0" key="SettingsEditor" timestamp="1627461376799">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="176" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627461376799" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627462255997">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627462255997" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627458526827">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1627458526827" />
+    <state x="49" y="35" key="new project wizard" timestamp="1627455660685">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="49" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1627455660685" />
   </component>
 </project>

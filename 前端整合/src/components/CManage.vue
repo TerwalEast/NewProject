@@ -13,7 +13,7 @@
             <el-button style="float: right; padding: 3px 0" type="text">删除</el-button>
             <el-button style="float: right; padding: 3px 0" type="text">回复</el-button>
           </div>
-          <p>{{json.user_id}}于{{json.article_id}}说：{{json.text}}</p>
+          <p>{{json.userId}}于{{json.article_id}}说：{{json.text}}</p>
           <p>{{json.create_time}}</p>
         </el-card>
       </div>
