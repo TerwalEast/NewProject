@@ -15,7 +15,6 @@ public class Article {
     String content;
     String summary;
     Byte state;
-    //-----------------
     List<String> labels;
     List<Integer> labelIds;
     String stateStr;
