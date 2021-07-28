@@ -6,14 +6,14 @@
       <h2>收藏夹</h2>
       <hr>
     </div>
-    <div  v-for="json in list" class="content">
+    <div  v-for="(item,index) in list" class="content">
       <el-card class="box-card">
         <div slot="header" class="clearfix">
-          <span>{{json.title}}</span>
-          <el-button style="float: right; padding: 3px 0" type="text">取消收藏</el-button>
+          <span>{{item.title}}</span>
+          <el-button style="float: right; padding: 3px 0" type="text" @click="cancel(index)">取消收藏</el-button>
         </div>
-        <p>{{json.summary}}</p>
-        <p>{{json.user_id}}{{json.create_time}}</p>
+        <p>{{item.summary}}</p>
+        <p>{{item.user_id}}{{item.create_time}}</p>
       </el-card>
     </div>
   </div>
@@ -39,6 +39,9 @@
           console.log(err);
         })
         console.log("你好");
+      },
+      cancel(index){
+        console.log(index);
       }
     },
     created() {

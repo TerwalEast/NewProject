@@ -24,7 +24,7 @@
             <router-link to="/setting">
               <el-menu-item index="2">
                 <i class="el-icon-setting"></i>
-                <span slot="title">账号设置</span>
+                <span slot="title">修改密码</span>
               </el-menu-item>
             </router-link>
             <router-link to="/privacy">

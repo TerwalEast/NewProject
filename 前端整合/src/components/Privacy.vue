@@ -1,18 +1,6 @@
 <template>
   <div class="privacy">
-    <div class="info">
-      <p>
-        公开我的个人信息
-      </p>
-      <p>
-        <el-switch
-          v-model="value1"
-          active-text="开"
-          inactive-text="关">
-        </el-switch>
-      </p>
-    </div>
-    <div class="info">
+    <div class="like">
       <p>
         公开我的收藏夹
       </p>

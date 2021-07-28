@@ -7,14 +7,14 @@
         <h2>评论管理</h2>
         <hr>
       </div>
-      <div  v-for="json in list" class="content">
+      <div  v-for="(item,index) in list" class="content">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <el-button style="float: right; padding: 3px 0" type="text">删除</el-button>
-            <el-button style="float: right; padding: 3px 0" type="text">回复</el-button>
+            <el-button style="float: right; padding: 3px 0" type="text" @click="del(index)">删除</el-button>
+            <el-button style="float: right; padding: 3px 0" type="text" @click="turn(index)">回复</el-button>
           </div>
-          <p>{{json.userId}}于{{json.article_id}}说：{{json.text}}</p>
-          <p>{{json.create_time}}</p>
+          <p>{{item.userId}}于{{item.article_id}}说：{{item.text}}</p>
+          <p>{{item.create_time}}</p>
         </el-card>
       </div>
     </div>
@@ -41,6 +41,12 @@
           console.log(err);
         })
         console.log("你好");
+      },
+      del(index){
+        console.log(index);
+      },
+      turn(index){
+        console.log(index);
       }
     },
     created() {
