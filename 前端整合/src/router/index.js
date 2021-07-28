@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import Main from '../views/Main'
 import Login from "../views/Login";
 import Register from "../views/Register";
-import info from "../views/Info";
+import ArticleInfo from "../views/Info";
 import UserInfo from "../views/UserInfo";
 import Me from "../views/Me";
 import Article from "../views/Article"
@@ -78,7 +78,7 @@ export default new Router({
     {
       name:'information',
       path:'/information',
-      component:info
+      component:ArticleInfo
     },
     {
       name:'userInfo',

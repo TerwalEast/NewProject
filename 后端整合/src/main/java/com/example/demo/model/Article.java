@@ -11,15 +11,9 @@ import java.util.List;
 @Data
 public class Article {
     Integer id;
-    Integer user_id;
     String title;
     String content;
     String summary;
-    Date create_Time;
-    Date modify_Time;
-
-
-
     Byte state;
     //-----------------
     List<String> labels;
@@ -28,6 +22,7 @@ public class Article {
     LocalDateTime createTime;
     LocalDateTime modifyTime;
     Integer userId;
+    String user;
     public void newArticle(){
         this.setModifyTime(LocalDateTime.now());
         this.setCreateTime(LocalDateTime.now());

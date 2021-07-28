@@ -175,6 +175,13 @@ export default {
   methods:{
     //文章相关
     getArticle(){
+      let states = {
+        "已发布" : 1,
+        "未发布" : 0,
+        "被封禁" : 2,
+        "已删除" : 3
+      };
+      this.articleMsg.state = states[this.articleMsg.stateStr];
       let success=(response)=>{
         this.article=response.data.list;
         this.articleMsg.total=response.data.code
