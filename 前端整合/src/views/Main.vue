@@ -201,7 +201,7 @@ export default {
     //前往文章页面
     gotoArticle(index){
       this.articleId=this.lists[index].id;
-      this.$router.push('/info?artId='+this.articleId);
+      this.$router.push('/information?artId='+this.articleId);
     },
     //前往作者页面
     gotoAuthor(index){

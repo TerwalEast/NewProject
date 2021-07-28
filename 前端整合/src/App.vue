@@ -2,7 +2,7 @@
   <div id="login">
     <div class="navbar">
       <router-link to="/" class="rout">主页</router-link>
-      <label v-if="type!==null&&type==='1'" class="rout" @click="admin">管理</label>
+      <router-link v-if="type!==null&&type==='1'" to="/admin" class="rout">管理</router-link>
       <router-link v-if="token===null" to="/register" class="rout-right">注册</router-link>
       <router-link v-if="token===null" to="/login" class="rout-right">登录</router-link>
       <label v-if="token!==null" class="rout-right" @click="logout">退出</label>

@@ -12,7 +12,7 @@
 	 -->
     <select id="getArticleByLimit" resultMap="ArticleSimpleMap">
         select a.id,a.user_id,c.name,a.title,
-        a.content,a.summary,a.modify_time,a.create_time,a.state
+        a.context,a.summary,a.modify_time,a.create_time,a.state
         from article a,customer c
         <where>
             a.user_id=c.id

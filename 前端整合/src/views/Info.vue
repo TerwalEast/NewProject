@@ -64,7 +64,7 @@ import utils from "../../utils/utils";
 import UserBrief from "../components/UserBrief.vue";
 
 export default {
-  name: 'Info',
+  name: 'ArticleInfo',
   components: { UserBrief },
   data()
   {

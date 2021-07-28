@@ -9,7 +9,7 @@
           <el-table-column prop="labels" label="标签" width="180"></el-table-column>
           <el-table-column prop="createTime" label="创立时间" width="180"></el-table-column>
           <el-table-column prop="modifyTime" label="修改时间" width="180"></el-table-column>
-          <el-table-column prop="stateStr" v-if="" label="状态" width="180"></el-table-column>
+          <el-table-column prop="stateStr" label="状态" width="180"></el-table-column>
           <el-table-column fixed="right" label="操作" width="180">
             <template slot-scope="scope">
               <el-button @click="editClick(scope.row)" type="text" size="small">编辑</el-button>
