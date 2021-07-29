@@ -117,4 +117,15 @@ public class TestController {
         likeDao.deleteLikeByUserArticle(aid,1);
         response.getWriter().write("接收到前端数据：" + aid);
     }
+
+    @CrossOrigin
+    @ResponseBody
+    @RequestMapping("/test8")
+    public String test8() throws JsonProcessingException {
+        List<Comment> list=commentDao.getCommentUserPost(1);
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonStr = "";
+        jsonStr =  mapper.writeValueAsString(list);
+        return jsonStr;
+    }
 }

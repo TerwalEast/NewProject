@@ -12,7 +12,8 @@
           <span>{{item.title}}</span>
           <el-button style="float: right; padding: 3px 0" type="text" @click="edit(index)">编辑</el-button>
           <el-button style="float: right; padding: 3px 0" type="text" @click="del(index)">删除</el-button>
-          <el-button style="float: right; padding: 3px 0" type="text" @click="reset(index)">设为私密</el-button>
+          <el-button style="float: right; padding: 3px 0" type="text" @click="reset(index)" v-if="item.state">设为私密</el-button>
+          <el-button style="float: right; padding: 3px 0" type="text" @click="reset(index)" v-if="!item.state">设为公开</el-button>
         </div>
         <p>{{item.summary}}</p>
         <p>{{item.user_id}}{{item.create_time}}</p>
@@ -47,9 +48,25 @@
       },
       del(index){
         console.log(index);
+          this.$confirm('此操作将永久删除文章, 是否继续?', '提示', {
+            confirmButtonText: '确定',
+            cancelButtonText: '取消',
+            type: 'warning'
+          }).then(() => {
+            this.$message({
+              type: 'success',
+              message: '删除成功!'
+            });
+          }).catch(() => {
+            this.$message({
+              type: 'info',
+              message: '已取消删除'
+            });
+          });
       },
       reset(index){
         console.log(index);
+        this.list[index].state=!this.list[index].state;
       }
     },
     created() {

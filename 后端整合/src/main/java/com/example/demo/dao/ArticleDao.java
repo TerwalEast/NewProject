@@ -57,8 +57,8 @@ public interface ArticleDao {
     //获得文章标签
     public List<String> getLabel(@Param("articleId") Integer articleId);
 
-    @Select("SELECT * FROM `article`,`like`"+
-            "WHERE like.user_id=#{uid} AND like.article_id=article.id")
+    @Select("SELECT * FROM `article`,`likes`"+
+            "WHERE likes.user_id=#{uid} AND likes.article_id=article.id")
     public List<Article> getLikeByUser(@Param("uid")Integer userId);
 
     @Select("select a.id,a.user_id,c.name,a.title," +

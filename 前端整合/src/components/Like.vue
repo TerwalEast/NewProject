@@ -45,6 +45,7 @@
         axios.post("http://localhost:8081/test7",this.list[index]).then(function(response){
           alert(response.data);
         })
+        location.reload();
       }
     },
     created() {

@@ -1,16 +1,66 @@
 <template>
-  <div>
+  <div style="width: 100%">
+    <div id="h" style="width: 87%;position: absolute;left: 5%">
+      <el-card class="box-card">
+      </el-card>
+    </div>
+      <div id="title" style="width: 85%;position: absolute;left: 5%;top: 15%">
+        <img src="src/assets/title.jpg">
+        <h1>欢迎来到WHuang Blog</h1>
+        <p>创造自己的精彩</p>
+      </div>
 
-  <div class="header">
-    <h1>欢迎来到WHuang Blog</h1>
-    <p>创造自己的精彩</p>
-  </div>
+    <div id="show" style="width: 87%;position: absolute;left: 5%;top:30%">
+      <el-row :gutter="20">
+        <el-col :span="14">
+          <div class="block">
+            <el-carousel trigger="click" height="300px">
+              <el-carousel-item>
+                <el-card class="box-card" style="height: 300px">
+                  <el-card class="box-card">
+                    <div slot="header" class="clearfix" style="height: 30px">
+                      <span><h4>文章：{{lists[1].title}}</h4></span>
+                    </div>
+                    <a>{{lists[1].createTime}}</a>
+                  </el-card>
+                  <el-card class="box-card">
+                    <div slot="header" class="clearfix" style="height: 30px">
+                      <span><h4>{{lists[0].title}}</h4></span>
+                    </div>
+                    <a>{{lists[0].createTime}}</a>
+                  </el-card>
+                </el-card>
+              </el-carousel-item>
+              <el-carousel-item>
+                <el-card class="box-card" style="height: 300px">
+                  <el-card class="box-card">
+                    <div slot="header" class="clearfix" style="height: 30px">
+                      <span><h4>文章：{{lists[2].title}}</h4></span>
+                    </div>
+                    <a>{{lists[2].createTime}}</a>
+                  </el-card>
+                  <el-card class="box-card">
+                    <div slot="header" class="clearfix" style="height: 30px">
+                      <span><h4>{{lists[3].title}}</h4></span>
+                    </div>
+                    <a>{{lists[3].createTime}}</a>
+                  </el-card>
+                </el-card>
+              </el-carousel-item>
+            </el-carousel>
+          </div>
+        </el-col>
+        <el-col :span="10">
+          <el-carousel height="300px" width="600px" indicatorPosition="outside" ref="carousel">
+          <el-carousel-item class="carousel-item" v-for="item in imgs" v-bind:key="item.url">
+            <img class="carousel-img" :src="item.url" style="width: 100%;height: 100%">
+          </el-carousel-item>
+          </el-carousel>
+        </el-col>
+      </el-row>
+    </div>
 
-
-<!------------>
-
-
-    <div>
+    <div id="content" style="width:87%;position: absolute;left: 5%;top: 70%">
       <el-tabs :tab-position="tabPosition" style="height: 200px;">
         <el-tab-pane label="文章">
 <!--          搜索框-->
@@ -128,9 +178,6 @@
             </el-col>
           </div>
         </el-tab-pane>
-        <el-tab-pane v-if="token!==null" label="个人主页">
-          <label @click="gotoMe">我的主页</label>
-        </el-tab-pane>
       </el-tabs>
     </div>
 
@@ -143,7 +190,6 @@
 
 import utils from "../../utils/utils";
 import UserBrief from "../components/UserBrief.vue";
-
 export default {
   name: 'Main',
   components: { UserBrief },
@@ -171,7 +217,13 @@ export default {
       userId:-1,
       lists:[],
       userLists:[],
-      token:-1
+      token:-1,
+      img:'https://ftp.bmp.ovh/imgs/2021/07/9c8cad3dfe0c6949.jpg',
+      imgs: [
+        {url:'https://ftp.bmp.ovh/imgs/2021/07/7de54f28a4ed2d28.jpg', link: '/content1'},
+        {url: 'https://ftp.bmp.ovh/imgs/2021/07/497366ec3551fe69.jpg', link: '/content2'},
+        {url: 'https://ftp.bmp.ovh/imgs/2021/07/15a3127e814c4ced.png', link: '/content3'}
+      ]
     }
   },
   created() {
