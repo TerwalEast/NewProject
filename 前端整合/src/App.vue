@@ -3,8 +3,9 @@
     <div class="navbar">
       <router-link to="/" class="rout">主页</router-link>
       <router-link v-if="type!==null&&type==='1'" to="/admin" class="rout">管理</router-link>
-      <router-link v-if="token===null" to="/register" class="rout-right">注册</router-link>
-      <router-link v-if="token===null" to="/login" class="rout-right">登录</router-link>
+      <router-link v-if="!testLog()" to="/register" class="rout-right">注册</router-link>
+      <router-link v-if="!testLog()" to="/login" class="rout-right">登录</router-link>
+      <router-link v-if="testLog()" to="/person" class="rout-right" style="color:red;">{{localStorage.getItem("name")}}</router-link>
       <label v-if="token!==null" class="rout-right" @click="logout">退出</label>
     </div>
     <router-view/>
@@ -28,6 +29,7 @@ export default {
   created() {
     this.token=localStorage.getItem("token");
     this.type=localStorage.getItem("type");
+
     // alert(this.type)
   },
   methods:{
@@ -40,6 +42,10 @@ export default {
     },
     admin(){
       this.$router.push('/admin');
+    },
+    testLog(){
+      if(localStorage.getItem("token") == null)return false;
+      return true;
     }
   }
 }

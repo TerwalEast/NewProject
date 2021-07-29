@@ -82,15 +82,17 @@
         console.log(key, keyPath);
       },
       getInfo(){
-        axios.get('http://localhost:8081/test',{})
+        //Edited part starts here!
+        axios.get('http://localhost:8081/user/'+localStorage.getItem("Token"),{})
           .then(res=>{
             console.log(res.data)
-            var jObject=res.data.valueOf()
-            this.avatarUrl=jObject.avatar_url
-            this.name=jObject.name
-            if(jObject.type==0)  this.type="普通用户"
+
+            this.avatarUrl=res.data.obj.avatar_url
+            this.name=res.data.obj.name
+            if(res.data.obj.type==0)  this.type="普通用户"
             else this.type="管理员"
-            console.log(jObject.name)
+            console.log(res.data.obj.name)
+
           }).catch(err=>{
           console.log(err);
         })
@@ -98,8 +100,18 @@
       }
     },
     created() {
-      this.getInfo();
+      if(localStorage.getItem("token") == null)
+      {
+        this.$router.push("/login");
+      }
+      else
+      {
+        this.getInfo();
+      }
+        
     }
+
+    //Edited part ends here!
   }
 </script>
 <style scoped>
