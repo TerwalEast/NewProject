@@ -1,9 +1,13 @@
 <template>
   <div class="person">
+    <div class="background">
+      <img :src="backUrl" width="100%" height="100%" alt="" />
+    </div>
     <div class="title">
       <el-card class="box-card">
-      <el-avatar :size="100" v-if="avatarUrl" :src="avatarUrl"></el-avatar>
-        <p>{{name}}</p>
+          <el-avatar :size="100" v-if="avatarUrl" :src="avatarUrl"></el-avatar>
+          <p><h3>{{name}}</h3>
+          <p>{{introduce}}</p>
       </el-card>
     </div>
     <div class="content">
@@ -17,13 +21,13 @@
             @close="handleClose">
             <router-link to="/info">
               <el-menu-item index="1">
-                <i class="el-icon-message"></i>
+                <i class="el-icon-user"></i>
                 <span slot="title">个人信息</span>
               </el-menu-item>
             </router-link>
             <router-link to="/setting">
               <el-menu-item index="2">
-                <i class="el-icon-setting"></i>
+                <i class="el-icon-lock"></i>
                 <span slot="title">修改密码</span>
               </el-menu-item>
             </router-link>
@@ -35,13 +39,13 @@
             </router-link>
             <router-link to="/like">
               <el-menu-item index="4">
-                <i class="el-icon-setting"></i>
+                <i class="el-icon-star-off"></i>
                 <span slot="title">我的收藏</span>
               </el-menu-item>
             </router-link>
             <el-submenu index="5">
               <template slot="title">
-                <i class="el-icon-setting"></i>
+                <i class="el-icon-more-outline"></i>
                 <span>内容管理</span>
               </template>
               <el-menu-item-group>
@@ -71,7 +75,9 @@
       return {
         message: null,
         avatarUrl:"",
-        name:""
+        name:"",
+        backUrl:"",
+        introduce:""
       }
     },
     methods: {
@@ -86,7 +92,6 @@
         axios.get('http://localhost:8081/user/'+localStorage.getItem("Token"),{})
           .then(res=>{
             console.log(res.data)
-
             this.avatarUrl=res.data.obj.avatar_url
             this.name=res.data.obj.name
             if(res.data.obj.type==0)  this.type="普通用户"
@@ -108,13 +113,19 @@
       {
         this.getInfo();
       }
-        
+
     }
 
     //Edited part ends here!
   }
 </script>
 <style scoped>
+  .background{
+    width:100%;
+    height:100%;
+    z-index:-1;
+    position: absolute;
+  }
   .box-card{
     width: 90%;
     height: 80%;

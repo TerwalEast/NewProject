@@ -42,6 +42,9 @@
       },
       cancel(index){
         console.log(index);
+        axios.post("http://localhost:8081/test7",this.list[index]).then(function(response){
+          alert(response.data);
+        })
       }
     },
     created() {

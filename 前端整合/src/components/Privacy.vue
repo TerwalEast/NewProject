@@ -6,7 +6,7 @@
       </p>
       <p>
         <el-switch
-          v-model="value2"
+          v-model="value1"
           active-text="开"
           inactive-text="关">
         </el-switch>
@@ -19,8 +19,7 @@
   export default {
     data() {
       return {
-        value1: true,
-        value2: true
+        value1: true
       }
     },
     methods:{
@@ -28,3 +27,10 @@
     }
   };
 </script>
+<style scoped>
+  .like{
+    position: absolute;
+    top:20%;
+    left: 50%;
+  }
+</style>

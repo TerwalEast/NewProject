@@ -1,9 +1,11 @@
 <template>
   <div class="info">
-    <p>姓名:{{name}}</p>
-    <p>邮箱:{{email}}</p>
-    <p>电话:{{phone}}</p>
-    <p>权限:{{type}}</p>
+    <el-form>
+      <el-form-item>姓名:{{name}}</el-form-item>
+      <el-form-item>邮箱:{{email}}</el-form-item>
+      <el-form-item>电话:{{phone}}</el-form-item>
+      <el-form-item>权限:{{type}}</el-form-item>
+    </el-form>
   </div>
 </template>
 <script>
@@ -45,6 +47,8 @@
 </script>
 <style scoped>
   .info{
-    float: bottom;
+    position: absolute;
+    top:10%;
+    left: 50%;
   }
 </style>

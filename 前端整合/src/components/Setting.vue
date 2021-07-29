@@ -12,7 +12,7 @@
         <el-form-item label="确认密码">
           <el-input id="confirm" v-model="theConfirm" type="password"></el-input>
         </el-form-item>
-        <el-button>确认</el-button>
+        <el-button @click="confirm()">确认</el-button>
       </el-form>
     </div>
   </div>
@@ -24,6 +24,11 @@
         theOld:"",
         theNew:"",
         theConfirm:""
+      }
+    },
+    methods:{
+      confirm(){
+        console.log("yes");
       }
     }
   }
