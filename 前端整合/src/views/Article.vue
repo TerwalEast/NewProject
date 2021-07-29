@@ -126,6 +126,7 @@ export default {
       }
       let success=(response)=>{
         this.$message.success('新建成功');
+        this.$router.push('/');
       }
       utils.axiosMethod({
         method:"Post",

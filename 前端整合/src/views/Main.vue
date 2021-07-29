@@ -1,7 +1,12 @@
 <template>
   <div>
 
-  
+  <div class="header">
+    <h1>欢迎来到WHuang Blog</h1>
+    <p>创造自己的精彩</p>
+  </div>
+
+
 <!------------>
 
 
@@ -129,7 +134,7 @@
       </el-tabs>
     </div>
 
-    
+
 
 
   </div>

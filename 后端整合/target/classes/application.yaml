@@ -2,6 +2,9 @@ server:
   port: 8081
 
 spring:
+  app:
+    cors:
+      enabled: true
   thymeleaf:
     cache: false
     prefix: classpath:/templates/

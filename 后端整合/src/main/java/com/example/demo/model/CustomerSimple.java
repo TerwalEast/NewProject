@@ -7,6 +7,7 @@ public class CustomerSimple {
         Integer id;
         String name;
         String avatarUrl;
+        String backUrl;
         Byte type;
         Byte state;
     }

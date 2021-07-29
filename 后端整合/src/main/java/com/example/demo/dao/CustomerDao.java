@@ -59,8 +59,8 @@ public interface CustomerDao {
                     @Result(column = "introduce",property = "introduce",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "email",property = "email",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "phone",property = "phone",javaType = String.class,jdbcType = JdbcType.VARCHAR),
-                    @Result(column = "backUrl",property = "back_url",javaType = String.class,jdbcType = JdbcType.VARCHAR),
-                    @Result(column = "avatarUrl",property = "avatar_url",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+                    @Result(column = "backUrl",property = "backUrl",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+                    @Result(column = "avatarUrl",property = "avatarUrl",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "type",property = "type",javaType = Byte.class,jdbcType = JdbcType.TINYINT),
                     @Result(column = "state",property = "state",javaType = Byte.class,jdbcType = JdbcType.TINYINT)
             }
@@ -105,8 +105,8 @@ public interface CustomerDao {
                         @Result(column = "introduce",property = "introduce",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                         @Result(column = "email",property = "email",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                         @Result(column = "phone",property = "phone",javaType = String.class,jdbcType = JdbcType.VARCHAR),
-                        @Result(column = "back_url",property = "back_url",javaType = String.class,jdbcType = JdbcType.VARCHAR),
-                        @Result(column = "avatar_url",property = "avatar_url",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+                        @Result(column = "back_url",property = "backUrl",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+                        @Result(column = "avatar_url",property = "avatarUrl",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                         @Result(column = "type",property = "type",javaType = Byte.class,jdbcType = JdbcType.TINYINT),
                         @Result(column = "state",property = "state",javaType = Byte.class,jdbcType = JdbcType.TINYINT)
                 }

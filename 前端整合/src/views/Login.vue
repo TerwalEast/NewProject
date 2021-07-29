@@ -49,7 +49,7 @@ export default {
             message: response.data.msg});
           localStorage.setItem("token", response.data.obj.id);
           localStorage.setItem("type", response.data.obj.type);
-          
+
           //Edited
           localStorage.setItem("name",response.data.obj.name);
 
@@ -58,7 +58,7 @@ export default {
 
           //Edit end
 
-          window.location.reload();
+          this.$router.push('/person');
           // alert(response.data.obj.id);
         }
         else {

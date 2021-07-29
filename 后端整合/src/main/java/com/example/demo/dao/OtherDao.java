@@ -12,7 +12,7 @@ import java.util.List;
 public interface OtherDao {
 
     //增加一条浏览记录
-    @Insert("insert into browse (article_id,user_id,time,be_deleted) values " +
+    @Insert("insert into browse (article_id,user_id,time) values " +
             "(#{artId},#{userId},#{time},0)")
     public void addBrowse(@Param("artId")Integer artId,
                           @Param("userId")Integer userId,
@@ -21,7 +21,7 @@ public interface OtherDao {
     @Select("select b.article_id,a.title,b.user_id,c.name,time " +
             "from browse b,article a,customer c " +
             "where b.user_id=#{userId} and a.id=b.article_id and " +
-            "c.id=b.user_id and b.be_deleted=0")
+            "c.id=b.user_id")
     @Results(
             value = {
                     @Result(column = "article_id",property = "articleId",javaType = Integer.class,jdbcType = JdbcType.INTEGER),
@@ -34,7 +34,7 @@ public interface OtherDao {
     public List<Browse> getBrowseByUser(@Param("userId")Integer userId);
 
 
-    @Update("update browse set be_deleted=1 where user_id=#{userId}")
+    @Update("delete browse where user_id=#{userId}")
     void deleteBrowse(@Param("userId") Integer userId);
 
     //查询喜爱
@@ -68,8 +68,8 @@ public interface OtherDao {
                                    @Param("userId")Integer userId);
 
     //不喜欢文章
-    @Delete("delete from likes where " +
-            "article_id=#{artId} and user_id=#{userId}")
+    @Delete("delete from likes " +
+            "where article_id=#{artId} and user_id=#{userId}")
     public void deleteLikeArticleUser(@Param("artId")Integer artId,
                                       @Param("userId")Integer userId);
 
@@ -90,4 +90,5 @@ public interface OtherDao {
             }
     )
     List<Browse> getBrowse();
+
 }

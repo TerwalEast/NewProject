@@ -12,7 +12,7 @@
     </div>
     <div class="content">
       <el-card class="box-card">
-      <el-row class="tac" gutter="50">
+      <el-row class="tac" gutter=50>
         <el-col :span="4">
           <el-menu
             default-active="1"
@@ -89,11 +89,13 @@
       },
       getInfo(){
         //Edited part starts here!
-        axios.get('http://localhost:8081/user/'+localStorage.getItem("Token"),{})
+        axios.get('http://localhost:8081/user/'+localStorage.getItem("token"),{})
           .then(res=>{
             console.log(res.data)
-            this.avatarUrl=res.data.obj.avatar_url
+            this.avatarUrl=res.data.obj.avatarUrl
+            this.backUrl=res.data.obj.backUrl
             this.name=res.data.obj.name
+            this.introduce=res.data.obj.introduce
             if(res.data.obj.type==0)  this.type="普通用户"
             else this.type="管理员"
             console.log(res.data.obj.name)

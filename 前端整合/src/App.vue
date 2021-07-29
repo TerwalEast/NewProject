@@ -5,8 +5,11 @@
       <router-link v-if="type!==null&&type==='1'" to="/admin" class="rout">管理</router-link>
       <router-link v-if="!testLog()" to="/register" class="rout-right">注册</router-link>
       <router-link v-if="!testLog()" to="/login" class="rout-right">登录</router-link>
-      <router-link v-if="testLog()" to="/person" class="rout-right" style="color:red;">{{localStorage.getItem("name")}}</router-link>
+
+
       <label v-if="token!==null" class="rout-right" @click="logout">退出</label>
+      <router-link v-if="testLog()" to="/person" class="rout-right" style="color:#ff9b3e;">个人主页</router-link>
+      <router-link v-if="testLog()" to="/article" class="rout-right">写文章</router-link>
     </div>
     <router-view/>
   </div>

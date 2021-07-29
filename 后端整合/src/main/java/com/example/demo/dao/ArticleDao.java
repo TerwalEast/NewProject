@@ -39,10 +39,10 @@ public interface ArticleDao {
             value = {
                     @Result(column = "id",property = "id",javaType = Integer.class,jdbcType = JdbcType.INTEGER),
                     @Result(column = "user_id",property = "userId",javaType = Integer.class,jdbcType = JdbcType.INTEGER),
-                    @Result(column = "context",property = "content",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+                    @Result(column = "content",property = "content",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "name",property = "user",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "modify_time",property = "modifyTime",javaType = LocalDateTime.class,jdbcType = JdbcType.DATETIMEOFFSET),
-                    @Result(column = "back_url",property = "backUrl",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+
                     @Result(column = "title",property = "title",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "create_time",property = "createTime",javaType = LocalDateTime.class,jdbcType = JdbcType.DATETIMEOFFSET),
                     @Result(column = "state",property = "state",javaType = Byte.class,jdbcType = JdbcType.TINYINT)
@@ -62,7 +62,7 @@ public interface ArticleDao {
     public List<Article> getLikeByUser(@Param("uid")Integer userId);
 
     @Select("select a.id,a.user_id,c.name,a.title," +
-            "a.context,a.summary,a.back_url,a.modify_time," +
+            "a.content,a.summary,a.modify_time," +
             "a.create_time,a.state " +
             "from article a,customer c " +
             "where a.user_id=c.id and a.id=#{id}")
@@ -70,8 +70,8 @@ public interface ArticleDao {
             value = {
                     @Result(column = "id",property = "id",javaType = Integer.class,jdbcType = JdbcType.INTEGER),
                     @Result(column = "user_id",property = "userId",javaType = Integer.class,jdbcType = JdbcType.INTEGER),
-                    @Result(column = "context",property = "content",javaType = String.class,jdbcType = JdbcType.VARCHAR),
-                    @Result(column = "back_url",property = "backUrl",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+                    @Result(column = "content",property = "content",javaType = String.class,jdbcType = JdbcType.VARCHAR),
+
                     @Result(column = "name",property = "user",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "title",property = "title",javaType = String.class,jdbcType = JdbcType.VARCHAR),
                     @Result(column = "create_time",property = "createTime",javaType = LocalDateTime.class,jdbcType = JdbcType.DATETIMEOFFSET),
@@ -86,15 +86,15 @@ public interface ArticleDao {
     public void changeArticleState(@Param("state")Integer state,@Param("id")Integer id);
 
     @Update("update article " +
-            "set title=#{article.title},context=#{article.content},summary=#{article.summary}," +
-            "modify_time=#{article.modifyTime},back_url=#{article.backUrl} " +
+            "set title=#{article.title},content=#{article.content},summary=#{article.summary}," +
+            "modify_time=#{article.modifyTime} " +
             "where id=#{article.id}")
     public void updateArticle(@Param("article")Article article);
 
     //
-    @Insert("insert into article (user_id,title,context,summary,modify_time,create_time,state) " +
+    @Insert("insert into article (user_id,title,content,summary,modify_time,create_time,state) " +
             "values (#{article.userId},#{article.title},#{article.content},#{article.summary}," +
-            "#{article.modifyTime},#{article.createTime},#{article.state},#{article.backUrl})")
+            "#{article.modifyTime},#{article.createTime},#{article.state})")
     public void insertArticle(@Param("article")Article article);
 
     //文章标签删除

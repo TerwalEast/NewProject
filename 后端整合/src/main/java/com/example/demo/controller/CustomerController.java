@@ -60,12 +60,13 @@ public class CustomerController {
     }
 
     //某一用户
+    @CrossOrigin
     @ResponseBody
     @GetMapping("/{userId}")
     public MyResult user(@PathVariable("userId") Integer id){
         Customer customer=customerService.getById(id);
         MyResult myResult= new MyResult();
-//        System.out.println(id);
+        System.out.println("See:"+id);
 //        System.out.println(customer);
         myResult.setObj(customer);
         return myResult;

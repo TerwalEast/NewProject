@@ -12,8 +12,8 @@ public class Customer {
     String introduce;
     String email;
     String phone;
-    String back_url;
-    String avatar_url;
+    String backUrl;
+    String avatarUrl;
     Byte type;
     Byte state;
 

@@ -5,11 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08480115-ac2b-495e-adbc-e4d03fef4061" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/LikeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端整合/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端整合/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端整合/src/views/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端整合/src/views/Article.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端整合/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端整合/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端整合/src/views/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端整合/src/views/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../前端整合/src/views/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端整合/src/views/Person.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385af9e0-7b76-4900-8e74-33de5fedc4aa.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/OtherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/OtherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/CustomerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/CustomerSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/OtherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/OtherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/CustomerSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/CustomerSimple.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +53,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hwblog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -39,9 +67,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,7 +119,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -115,7 +143,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -138,6 +166,8 @@
       <workItem from="1627455529974" duration="6870000" />
       <workItem from="1627490668189" duration="722000" />
       <workItem from="1627521226311" duration="2305000" />
+      <workItem from="1627540284325" duration="1920000" />
+      <workItem from="1627542288604" duration="6007000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1627278908587</created>
@@ -171,14 +201,16 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -188,5 +220,75 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;demo/src/main/java/com/example/demo/dao/ArticleDao.java&#10;#&#9;demo/src/main/java/com/example/demo/dao/CommentDao.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Article.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleRestrict.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleSimple.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Comment.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Customer.java&#10;#&#9;front/src/router/index.js" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;demo/src/main/java/com/example/demo/dao/ArticleDao.java&#10;#&#9;demo/src/main/java/com/example/demo/dao/CommentDao.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Article.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleRestrict.java&#10;#&#9;demo/src/main/java/com/example/demo/model/ArticleSimple.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Comment.java&#10;#&#9;demo/src/main/java/com/example/demo/model/Customer.java&#10;#&#9;front/src/router/index.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1627547421073">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627547421073" />
+    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1627547421072">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627547421072" />
+    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1627547421072">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627547421072" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1627547421073">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627547421073" />
+    <state width="1237" height="182" key="GridCell.Tab.1.bottom" timestamp="1627547421075">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627547421075" />
+    <state width="1237" height="182" key="GridCell.Tab.1.center" timestamp="1627547421074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627547421074" />
+    <state width="1237" height="182" key="GridCell.Tab.1.left" timestamp="1627547421074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627547421074" />
+    <state width="1237" height="182" key="GridCell.Tab.1.right" timestamp="1627547421075">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="182" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627547421075" />
+    <state width="1237" height="206" key="GridCell.Tab.2.bottom" timestamp="1627540194593">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627540194593" />
+    <state width="1237" height="206" key="GridCell.Tab.2.center" timestamp="1627540194592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1627540194592" />
+    <state width="1237" height="206" key="GridCell.Tab.2.left" timestamp="1627540194590">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1627540194590" />
+    <state width="1237" height="206" key="GridCell.Tab.2.right" timestamp="1627540194592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1627540194592" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1627540112116">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1627540112116" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1627542231585">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627542231585" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1627540819391">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1627540819391" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1627542290597">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1627542290597" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627540638855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1627540638855" />
   </component>
 </project>
